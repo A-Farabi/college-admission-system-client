@@ -4,7 +4,7 @@ import Home from './Home';
 
 const Root = () => {
     return (
-        <div>
+        <div className='font-poppins max-w-[90%]  mx-auto'>
             <Navbar></Navbar>
             <Home></Home>
         </div>
