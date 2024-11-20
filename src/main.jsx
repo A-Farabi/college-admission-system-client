@@ -15,6 +15,7 @@ import Faculty_Stuff from './Components/Faculty_Stuff.jsx';
 import EventnNews from './Components/EventnNews.jsx';
 import ContactUs from './Components/ContactUs.jsx';
 import Offers from './Pages/Offers.jsx';
+import CampusTour from './Pages/CampusTour.jsx';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/offers",
         element: <Offers></Offers>,
+      },
+      {
+        path: "/campustour",
+        element: <CampusTour></CampusTour>,
       },
     ],
   },

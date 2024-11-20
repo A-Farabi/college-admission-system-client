@@ -2,12 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Banner from './Banner';
 import { Link } from 'react-router-dom';
 import AboutUs from '../Pages/AboutUs';
+import CampusTour from '../Pages/CampusTour';
 
 const Home = () => {
 
     const [cardData, setCardData] = useState([])
-
-    console.log(cardData);
 
     useEffect(() => {
         fetch('/offers.json')
@@ -41,6 +40,7 @@ const Home = () => {
                 </div>
             </div>
             <AboutUs></AboutUs>
+            <CampusTour></CampusTour>
         </div>
     );
 };
