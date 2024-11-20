@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Scholarship Facility",
+        "description": "We provide merit-based scholarships to support your academic journey.",
+        "icon": "🎓"
+    },
+    {
+        "title": "Affordable Education",
+        "description": "Get quality education at a price you can afford without compromising excellence.",
+        "icon": "💰"
+    },
+    {
+        "title": "Flexible Payment Plans",
+        "description": "We offer installment-based payment plans to reduce your financial burden.",
+        "icon": "📅"
+    },
+    {
+        "title": "State-of-the-Art Facilities",
+        "description": "Access modern labs, libraries, and technology for a hands-on learning experience.",
+        "icon": "🏢"
+    },
+    {
+        "title": "Expert Faculty",
+        "description": "Learn from experienced and knowledgeable professors who are leaders in their fields.",
+        "icon": "👨‍🏫"
+    },
+    {
+        "title": "Career Counseling",
+        "description": "Receive personalized guidance to help you plan your academic and professional future.",
+        "icon": "🧑‍💼"
+    },
+    {
+        "title": "Internship Opportunities",
+        "description": "Gain real-world experience through industry internships during your studies.",
+        "icon": "🛠️"
+    },
+    {
+        "title": "Global Exposure",
+        "description": "Participate in exchange programs and global partnerships to broaden your horizons.",
+        "icon": "🌏"
+    },
+    {
+        "title": "Diverse Community",
+        "description": "Join a diverse group of students from various cultural and social backgrounds.",
+        "icon": "🌍"
+    }
+]

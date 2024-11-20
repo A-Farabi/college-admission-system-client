@@ -14,6 +14,7 @@ import Admission from './Components/Admission.jsx';
 import Faculty_Stuff from './Components/Faculty_Stuff.jsx';
 import EventnNews from './Components/EventnNews.jsx';
 import ContactUs from './Components/ContactUs.jsx';
+import Offers from './Pages/Offers.jsx';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "/contactus",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/offers",
+        element: <Offers></Offers>,
       },
     ],
   },

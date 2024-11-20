@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
+import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     return (
@@ -9,7 +10,7 @@ const Root = () => {
             <div className='mt-5'>
                 <Navbar></Navbar>
             </div>
-            <Home></Home>
+            <Outlet></Outlet>
             <div className='mt-20'>
                 <Footer></Footer>
             </div>
