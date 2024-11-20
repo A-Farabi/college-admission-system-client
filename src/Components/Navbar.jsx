@@ -64,7 +64,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className='btn bg-[#E5B300]' to={"/admission"}>Admission</Link>
+                    <Link className='btn bg-[#E5B300] rounded-none' to={"/admission"}>Admission</Link>
                 </div>
             </div>
             {/* daiseui navbar */}
