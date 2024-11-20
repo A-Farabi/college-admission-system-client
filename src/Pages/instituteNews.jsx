@@ -37,11 +37,16 @@ const InstituteNews = () => {
     };
 
     return (
-        <section className="bg-gray-50 py-16">
+        <section className="bg-gray-50 py-16 mt-10">
             <div className="container mx-auto px-6 md:px-12 lg:px-20">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-                    Institute News
-                </h2>
+                <div className="w-[60%] mx-auto text-center  p-5 rounded-lg">
+                    <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+                        <span className="text-yellow-500">Institute News and event</span>
+                    </h2>
+                    <p className="text-lg text-gray-600 leading-relaxed">
+                    Stay updated with the latest news, achievements, and events happening at Invent College. From academic milestones to student activities, get a glimpse into the vibrant life of our institute.
+                    </p>
+                </div>
 
                 {/* Sort Button */}
                 <div className="flex justify-center mb-6">
@@ -72,7 +77,7 @@ const InstituteNews = () => {
                                     className="w-full h-64 object-cover"
                                 />
                                 <div className="p-6">
-                                    <div className="flex justify-center">
+                                    <div className="lg:block flex justify-center">
                                         <span className="px-3 py-1 text-sm text-white bg-green-500 rounded-full">
                                             {sortedNews[currentIndex].category}
                                         </span>

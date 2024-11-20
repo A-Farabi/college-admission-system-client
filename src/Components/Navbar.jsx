@@ -42,7 +42,7 @@ const Navbar = () => {
                             }>Contact Us</NavLink>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl text-[#36384E]">Headway Engineering Institute</a>
+                    <Link to={"/"} className="text-2xl font-bold text-[#36384E]">Headway Engineering Ins.</Link >
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

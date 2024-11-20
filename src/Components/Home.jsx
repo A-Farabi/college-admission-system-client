@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import AboutUs from '../Pages/AboutUs';
 import CampusTour from '../Pages/CampusTour';
 import InstituteNews from '../Pages/instituteNews';
+import Statistics from '../Pages/Statistics';
 
 const Home = () => {
 
@@ -43,6 +44,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <CampusTour></CampusTour>
             <InstituteNews></InstituteNews>
+            <Statistics></Statistics>
         </div>
     );
 };
