@@ -2,8 +2,35 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter, FaX } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2'
 
 const Footer = () => {
+
+    const checkbox = document.getElementById('terms')
+
+    const handleSubscribe = () => {
+        if (checkbox.checked) {
+            Swal.fire({
+                title: "Thanks!",
+                text: "You Will Get Your Newsletter, Once It's Available",
+                imageUrl: "https://i.ibb.co.com/486Tg1t/animation.gif",
+                imageWidth: 400,
+                imageHeight: 300,
+                imageAlt: "Custom image"
+              });              
+        }
+        else{
+            Swal.fire({
+                title: "হালা !!",
+                text: "টার্মস এন্ড কন্ডিশন একসেপ্ট করবে কে ??",
+                imageUrl: "https://i.ibb.co.com/ZTfg6Kg/animation2.gif",
+                imageWidth: 400,
+                imageHeight: 300,
+                imageAlt: "Custom image"
+              });     
+        }
+    }
+
     return (
         <div>
             <footer className="bg-gray-800 text-gray-200 py-8">
@@ -25,7 +52,7 @@ const Footer = () => {
                                 I confirm I am over 16 and agree to the Terms and Conditions and Privacy Notice.
                             </label>
                         </div>
-                        <button className="px-6 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-500 transition">
+                        <button onClick={handleSubscribe} className="px-6 py-2 bg-gray-600 text-white rounded-md transition hover:bg-yellow-600">
                             SUBSCRIBE NOW
                         </button>
                     </div>
