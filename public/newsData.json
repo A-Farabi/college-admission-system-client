@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/4Jqmrqy/8.jpg",
+        "category": "Arts & Culture",
+        "title": "Art work of Invent seniors on display at Art gallery",
+        "description": "Explore the breathtaking artworks created by our talented students, displayed in the annual gallery exhibition.",
+        "date": "2024-05-31",
+        "comments": "No Comments"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/MpCnT3Q/7.jpg",
+        "category": "Society & Politics",
+        "title": "Invent College named 'Green College'",
+        "description": "Our college receives the 'Green College' title for its sustainable practices and eco-friendly initiatives.",
+        "date": "2024-06-15",
+        "comments": "No Comments"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/7Ytp3yZ/6.jpg",
+        "category": "Achievements",
+        "title": "Invent Student paper first in Scholastic Awards",
+        "description": "Students achieve first prize in the prestigious Scholastic Awards for their groundbreaking research.",
+        "date": "2024-07-10",
+        "comments": "No Comments"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/vmG3jQb/5.jpg",
+        "category": "Sports",
+        "title": "Annual Sports Day Winners Announced",
+        "description": "Celebrate the champions of this year's thrilling sports day events and competitions.",
+        "date": "2024-08-22",
+        "comments": "No Comments"
+    }
+]

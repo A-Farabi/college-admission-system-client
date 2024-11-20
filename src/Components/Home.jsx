@@ -3,6 +3,7 @@ import Banner from './Banner';
 import { Link } from 'react-router-dom';
 import AboutUs from '../Pages/AboutUs';
 import CampusTour from '../Pages/CampusTour';
+import InstituteNews from '../Pages/instituteNews';
 
 const Home = () => {
 
@@ -41,6 +42,7 @@ const Home = () => {
             </div>
             <AboutUs></AboutUs>
             <CampusTour></CampusTour>
+            <InstituteNews></InstituteNews>
         </div>
     );
 };
