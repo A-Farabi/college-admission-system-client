@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Banner from './Banner';
 import { Link } from 'react-router-dom';
+import AboutUs from '../Pages/AboutUs';
 
 const Home = () => {
 
@@ -39,6 +40,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <AboutUs></AboutUs>
         </div>
     );
 };
