@@ -6,29 +6,59 @@ import Swal from 'sweetalert2'
 
 const Footer = () => {
 
-    const checkbox = document.getElementById('terms')
-
     const handleSubscribe = () => {
-        if (checkbox.checked) {
+
+        const emailInput = document.querySelector('input[type="email"]');
+        const emailValue = emailInput.value.trim();
+        const checkbox = document.getElementById('terms');
+
+        // validate email
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailValue) {
             Swal.fire({
-                title: "Thanks!",
-                text: "You Will Get Your Newsletter, Once It's Available",
-                imageUrl: "https://i.ibb.co.com/486Tg1t/animation.gif",
-                imageWidth: 400,
-                imageHeight: 300,
-                imageAlt: "Custom image"
-              });              
-        }
-        else{
-            Swal.fire({
-                title: "হালা !!",
-                text: "টার্মস এন্ড কন্ডিশন একসেপ্ট করবে কে ??",
+                title: "ওই জুনিয়র !!",
+                text: "ঠিকঠাক মতো ইমেইল দে।",
                 imageUrl: "https://i.ibb.co.com/ZTfg6Kg/animation2.gif",
                 imageWidth: 400,
                 imageHeight: 300,
                 imageAlt: "Custom image"
-              });     
+            });   
+            return;
         }
+
+        if (!emailRegex.test(emailValue)) {
+            Swal.fire({
+                title: "ওই জুনিয়র !!",
+                text: "ঠিকঠাক মতো ইমেইল দে।",
+                imageUrl: "https://i.ibb.co.com/ZTfg6Kg/animation2.gif",
+                imageWidth: 400,
+                imageHeight: 300,
+                imageAlt: "Custom image"
+            });  
+            return;
+        }
+
+        if (!checkbox.checked) {
+            Swal.fire({
+                        title: "হালা !!",
+                        text: "টার্মস এন্ড কন্ডিশন একসেপ্ট করবে কে ??",
+                        imageUrl: "https://i.ibb.co.com/ZTfg6Kg/animation2.gif",
+                        imageWidth: 400,
+                        imageHeight: 300,
+                        imageAlt: "Custom image"
+                    });    
+            return;
+        }
+
+        Swal.fire({
+                    title: "Thanks Junior!",
+                    text: "You Will Get Your Newsletter, Once It's Available",
+                    imageUrl: "https://i.ibb.co.com/486Tg1t/animation.gif",
+                    imageWidth: 400,
+                    imageHeight: 300,
+                    imageAlt: "Custom image"
+                  }); 
     }
 
     return (
@@ -43,7 +73,8 @@ const Footer = () => {
                     <div className="flex flex-col items-center space-y-4">
                         <input
                             type="email"
-                            placeholder="Email address"
+                            id='email'
+                            placeholder="farabisyl2017@gmail.com"
                             className="w-full max-w-md px-4 py-2 rounded-md bg-gray-700 border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         />
                         <div className="flex items-center space-x-2 text-gray-400">
