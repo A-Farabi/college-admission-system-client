@@ -67,7 +67,7 @@ const Banner = () => {
                             <div className="w-72 h-72 lg:h-96  border-gray-300 rounded-lg flex items-center justify-center lg:w-full">
                                 {/* bg-gray-100 border-dashed border-4 */}
                                 {/* Replace this div with your image */}
-                                <img src={bannerImage} alt="BannerImg" className='lg:w-[65%]' />
+                                <img src={bannerImage} alt="BannerImg" className='lg:w-[80%]' />
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ const Banner = () => {
                             <div className="w-72 h-72 lg:h-96  border-gray-300 rounded-lg flex items-center justify-center lg:w-full">
                                 {/* bg-gray-100 border-dashed border-4 */}
                                 {/* Replace this div with your image */}
-                                <img src={bannerImage2} alt="BannerImg" className='lg:w-[65%]' />
+                                <img src={bannerImage2} alt="BannerImg" className='lg:w-[72%]' />
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const Banner = () => {
                             <div className="w-72 h-72 lg:h-96  border-gray-300 rounded-lg flex items-center justify-center lg:w-full">
                                 {/* bg-gray-100 border-dashed border-4 */}
                                 {/* Replace this div with your image */}
-                                <img src={bannerImage3} alt="BannerImg" className='lg:w-[65%]' />
+                                <img src={bannerImage3} alt="BannerImg" className='lg:w-[81%]' />
                             </div>
                         </div>
                     </div>
