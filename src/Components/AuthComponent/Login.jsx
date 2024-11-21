@@ -1,14 +1,19 @@
+import { useContext } from "react";
+import { FaGoogle } from "react-icons/fa";
+import { AuthContext } from "./AuthProvider";
+
 const Login = ({ toggleToSignup }) => {
 
-    const handleSubmit = e => {
-        e.preventDefault()
+    // Destructure createGoogleUser directly from context
+    const { createGoogleUser } = useContext(AuthContext);
 
-        const form = e.target
-        
-        const email = form.email.value
-        const password = form.password.value
+    const handleSubmit = (e) => {
+        e.preventDefault();
 
-    }
+        const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;
+    };
 
     return (
         <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
@@ -39,12 +44,21 @@ const Login = ({ toggleToSignup }) => {
                     Login
                 </button>
             </form>
-            <p className="text-sm text-gray-500 mt-4 text-center">
+            <p className="text-sm text-gray-500 mt-4 text-center mb-3">
                 Don't have an account?{" "}
                 <button onClick={toggleToSignup} className="text-yellow-500 hover:underline">
                     Sign Up
                 </button>
             </p>
+            <div>
+                <button
+                    className="w-full bg-yellow-500 text-black py-2 rounded-md hover:bg-yellow-600 transition flex items-center justify-center gap-2"
+                    onClick={createGoogleUser} // The function should now work correctly
+                >
+                    <FaGoogle />
+                    <span>Sign In with Google</span>
+                </button>
+            </div>
         </div>
     );
 };
