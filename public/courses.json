@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Computer Engineering",
+      "description": "Dive into the world of software and hardware development.",
+      "image": "https://i.ibb.co/7YrFr1m/computer.webp"
+    },
+    {
+      "title": "Civil Engineering",
+      "description": "Build the future with advanced infrastructure designs.",
+      "image": "https://i.ibb.co/GnPYL9p/civil.webp"
+    },
+    {
+      "title": "Architecture",
+      "description": "Shape creative and sustainable spaces for tomorrow.",
+      "image": "https://i.ibb.co/6WjDFff/arch.jpg"
+    },
+    {
+      "title": "Electrical Engineering",
+      "description": "Power up with cutting-edge electrical systems knowledge.",
+      "image": "https://i.ibb.co/3B3Vbck/electrical.webp"
+    },
+    {
+      "title": "Fisheries",
+      "description": "Explore sustainable fisheries and marine biology.",
+      "image": "https://i.ibb.co/mSmt5Kd/fisheries.webp"
+    },
+    {
+      "title": "Pharmacy",
+      "description": "Discover the science of medicines and healthcare.",
+      "image": "https://i.ibb.co/BsVG3Jx/pharmacy.jpg"
+    }
+  ]
