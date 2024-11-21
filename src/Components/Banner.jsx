@@ -44,7 +44,7 @@ const Banner = () => {
                 <div className='mt-10'>
                     <div className=" flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
-                        <div className="mx-12 flex-1 space-y-4 text-center lg:text-left">
+                        <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
                                 Institute <span className="text-yellow-500 font-extrabold lg:text-6xl"> 1 For Everyone</span>
                             </h1>
@@ -84,7 +84,7 @@ const Banner = () => {
                 <div className='mt-10'>
                     <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
-                        <div className="mx-12 flex-1 space-y-4 text-center lg:text-left">
+                        <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
                                 Institute <span className="text-yellow-500 font-extrabold lg:text-6xl">2 For Everyone</span>
                             </h1>
@@ -124,7 +124,7 @@ const Banner = () => {
             <div className='mt-10'>
                     <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
-                        <div className="mx-12 flex-1 space-y-4 text-center lg:text-left">
+                        <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
                                 Institute <span className="text-yellow-500 font-extrabold lg:text-6xl">3 For Everyone</span>
                             </h1>
