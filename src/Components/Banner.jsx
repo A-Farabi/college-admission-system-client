@@ -46,7 +46,7 @@ const Banner = () => {
                         {/* Left Section */}
                         <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
-                                Institute <span className="text-yellow-500 font-extrabold lg:text-6xl"> 1 For Everyone</span>
+                                Institute <span className="text-yellow-500 font-extrabold lg:text-6xl">For Everyone</span>
                             </h1>
                             <div className="text-gray-600 pt-5">
                                 <div className='text-2xl font-semibold'>"Empowering Tomorrow's Innovators" </div>
@@ -86,13 +86,14 @@ const Banner = () => {
                         {/* Left Section */}
                         <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
-                                Institute <span className="text-yellow-500 font-extrabold lg:text-6xl">2 For Everyone</span>
+                                Shaping <span className="text-yellow-500 font-extrabold lg:text-6xl">Future Innovators</span>
                             </h1>
                             <div className="text-gray-600 pt-5">
-                                <div className='text-2xl font-semibold'>"Empowering Tomorrow's Innovators" </div>
+                                <div className='text-2xl font-semibold'>"Building Leaders in Engineering" </div>
 
                                 <div className='mt-2 text-[1.1rem]'>
-                                    At Headway Engineering Institute, we shape the future by fostering innovation, excellence, and practical skills in engineering. Join us to build your career with confidence and competence.
+                                    we inspire leadership and ingenuity in every student. Our state-of-the-art facilities and hands-on learning approach empower you to tackle real-world challenges with creativity and precision.
+                                    Step into a World of Limitless Possibilities!
                                 </div>
 
                                 <div className='mt-1'>Your Journey to Excellence Begins Here!</div>
@@ -121,18 +122,19 @@ const Banner = () => {
             </div>
             {/* slider 3 */}
             <div id="slide3" className="carousel-item relative w-full">
-            <div className='mt-10'>
+                <div className='mt-10'>
                     <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
                         <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
-                                Institute <span className="text-yellow-500 font-extrabold lg:text-6xl">3 For Everyone</span>
+                                Excellence <span className="text-yellow-500 font-extrabold lg:text-6xl">Through Innovation</span>
                             </h1>
                             <div className="text-gray-600 pt-5">
-                                <div className='text-2xl font-semibold'>"Empowering Tomorrow's Innovators" </div>
+                                <div className='text-2xl font-semibold'>"Redefining Education, Transforming Lives" </div>
 
                                 <div className='mt-2 text-[1.1rem]'>
-                                    At Headway Engineering Institute, we shape the future by fostering innovation, excellence, and practical skills in engineering. Join us to build your career with confidence and competence.
+                                    Experience a transformative education that blends technical expertise with a passion for innovation. At Headway Engineering Institute, we prepare you to excel in your field and make a meaningful impact on the world.
+                                    Your Vision, Our Mission!
                                 </div>
 
                                 <div className='mt-1'>Your Journey to Excellence Begins Here!</div>
