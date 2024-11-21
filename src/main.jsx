@@ -16,6 +16,7 @@ import EventnNews from './Components/EventnNews.jsx';
 import ContactUs from './Components/ContactUs.jsx';
 import Offers from './Pages/Offers.jsx';
 import CampusTour from './Pages/CampusTour.jsx';
+import AuthProvider from './Components/AuthComponent/AuthProvider.jsx';
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
-    </StrictMode>,
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  </StrictMode>,
 )
