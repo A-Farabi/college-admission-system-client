@@ -5,6 +5,7 @@ import AboutUs from '../Pages/AboutUs';
 import CampusTour from '../Pages/CampusTour';
 import InstituteNews from '../Pages/instituteNews';
 import Statistics from '../Pages/Statistics';
+import Review from '../Pages/Review';
 
 const Home = () => {
 
@@ -45,6 +46,7 @@ const Home = () => {
             <CampusTour></CampusTour>
             <InstituteNews></InstituteNews>
             <Statistics></Statistics>
+            <Review></Review>
         </div>
     );
 };

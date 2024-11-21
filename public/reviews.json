@@ -1,0 +1,32 @@
+[
+    {
+      "avatar": "https://i.ibb.co/nzgDRjx/1.jpg",
+      "name": "John Doe",
+      "role": "Software Engineer",
+      "comment": "The institute exceeded my expectations! Highly recommend it.",
+      "rating": 5
+    },
+    {
+      "avatar": "https://i.ibb.co/gvwNLWJ/2.jpg",
+      "name": "Jane Smith",
+      "role": "Entrepreneur",
+      "comment": "Fantastic learning environment and supportive faculty.",
+      "rating": 4
+    },
+    {
+      "avatar": "https://i.ibb.co/rkBD104/4.jpg",
+      "name": "Desire Dulce",
+      "role": "Graduate Student",
+      "comment": "This place shaped my career and gave me amazing opportunities.",
+      "rating": 5
+    },
+    {
+      "avatar": "https://i.ibb.co/dJm974H/3.jpg",
+      "name": "Michael Brown",
+      "role": "Researcher",
+      "comment": "Great facilities and a wonderful campus experience.",
+      "rating": 4
+    }
+  ]
+  
+  
