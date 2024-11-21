@@ -1,39 +1,38 @@
 [
     {
-      "name": "Dr. John Doe",
-      "role": "Professor, Computer Science",
-      "avatar": "https://i.ibb.co/X7n1SyN/faculty1.jpg",
+      "name": "Jhanker Mahbub",
+      "role": "Ostaad of site developer",
+      "avatar": "https://i.ibb.co/jzh1x7m/jhanker-Bhai.jpg",
       "description": "Expert in AI and Machine Learning, with 20+ years of experience in research and teaching."
     },
     {
-      "name": "Prof. Jane Smith",
-      "role": "Associate Professor, Civil Engineering",
-      "avatar": "https://i.ibb.co/3zKcLNS/faculty2.jpg",
+      "name": "Md. Kamran Ahmed",
+      "role": "Department Head of Computer",
+      "avatar": "https://i.ibb.co/hmt0Nj2/kamran-Sir.jpg",
       "description": "Specializes in structural engineering and sustainable infrastructure design."
     },
     {
-      "name": "Dr. Sarah Lee",
-      "role": "Lecturer, Architecture",
-      "avatar": "https://i.ibb.co/rtJ5wMv/faculty3.jpg",
+      "name": "Gias Uddin",
+      "role": "Instractor, Programmming Hero",
+      "avatar": "https://i.ibb.co/nB8rg36/giasBhai.jpg",
       "description": "Experienced architect and educator, focusing on urban planning and eco-friendly designs."
     },
     {
-      "name": "Mr. James Brown",
-      "role": "Lab Assistant, Electrical Engineering",
-      "avatar": "https://i.ibb.co/FXFzhJk/faculty4.jpg",
+      "name": "Farruk Reza",
+      "role": "Professor, Electrical Engineering",
+      "avatar": "https://i.ibb.co/qxkgCtj/4.jpg",
       "description": "Assisting in lab management and teaching students about electrical systems and circuits."
     },
     {
-      "name": "Dr. Emily White",
+      "name": "Dr. Rauful Islam",
       "role": "Director, Research & Development",
-      "avatar": "https://i.ibb.co/B3T4Djs/faculty5.jpg",
+      "avatar": "https://i.ibb.co/Tm7648j/6.jpg",
       "description": "Leading R&D projects in environmental sustainability and green technologies."
     },
     {
-      "name": "Mr. Mark Green",
-      "role": "Staff, Administration",
-      "avatar": "https://i.ibb.co/jLMwymT/faculty6.jpg",
+      "name": "Jubair Hossain",
+      "role": "Administration Dept.",
+      "avatar": "https://i.ibb.co/MZX7ttY/3.jpg",
       "description": "Overseeing administrative operations and providing support to both students and staff."
     }
   ]
-  
