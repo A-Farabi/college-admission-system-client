@@ -6,6 +6,7 @@ import CampusTour from '../Pages/CampusTour';
 import InstituteNews from '../Pages/instituteNews';
 import Statistics from '../Pages/Statistics';
 import Review from '../Pages/Review';
+import Location from '../Pages/Location';
 
 const Home = () => {
 
@@ -47,6 +48,7 @@ const Home = () => {
             <InstituteNews></InstituteNews>
             <Statistics></Statistics>
             <Review></Review>
+            <Location></Location>
         </div>
     );
 };
