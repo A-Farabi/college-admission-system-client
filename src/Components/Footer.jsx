@@ -116,6 +116,20 @@ const Footer = () => {
                     <p className="text-gray-500 text-xl text-center">
                         Copyright © 2024 — Headway Engineering Institute
                     </p>
+                    {/* Developer Contact */}
+                    <div className="text-center">
+                        <p className="text-lg font-semibold text-yellow-500">
+                            Contact Developer:{" "}
+                            <a
+                                href="https://linkedin.com/in/mazidalfarabi"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline text-blue-500 hover:text-blue-400"
+                            >
+                                linkedin.com/in/mazidalfarabi
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </footer>        </div>
     );
