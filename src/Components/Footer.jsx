@@ -95,7 +95,7 @@ const Footer = () => {
                 {/* Footer Links & Copyright */}
                 <div className="flex flex-col items-center space-y-6">
                     {/* Links */}
-                    <div className="flex space-x-6">
+                    <div className="lg:flex text-center space-x-6">
                         <a href="#" className="text-gray-400 hover:text-gray-300">About</a>
                         <a href="#" className="text-gray-400 hover:text-gray-300">Contact us</a>
                         <a href="#" className="text-gray-400 hover:text-gray-300">FAQs</a>
@@ -113,7 +113,7 @@ const Footer = () => {
                     </div>
 
                     {/* Copyright */}
-                    <p className="text-gray-500 text-xl">
+                    <p className="text-gray-500 text-xl text-center">
                         Copyright © 2024 — Headway Engineering Institute
                     </p>
                 </div>
