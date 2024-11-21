@@ -54,7 +54,7 @@ const ContactUs = () => {
                                         name="name"
                                         value={formData.name}
                                         onChange={handleInputChange}
-                                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
+                                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-200"
                                     />
                                 </div>
 
@@ -69,7 +69,7 @@ const ContactUs = () => {
                                         name="email"
                                         value={formData.email}
                                         onChange={handleInputChange}
-                                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
+                                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-200"
                                     />
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ const ContactUs = () => {
                                     name="subject"
                                     value={formData.subject}
                                     onChange={handleInputChange}
-                                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
+                                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-200"
                                 />
                             </div>
 
@@ -99,12 +99,12 @@ const ContactUs = () => {
                                     name="message"
                                     value={formData.message}
                                     onChange={handleInputChange}
-                                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
+                                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-200"
                                     rows="4"
                                 ></textarea>
                             </div>
 
-                            <button type="submit" className="w-full p-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+                            <button type="submit" className="w-full p-3 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition duration-300">
                                 Submit
                             </button>
                         </form>

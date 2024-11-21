@@ -22,9 +22,9 @@ const CampusTour = () => {
     };
 
     return (
-        <section className="bg-gradient-to-b from-gray-50 to-gray-200 py-16 mt-20">
+        <section className="bg-gradient-to-b from-gray-50 to-gray-200 py-5 lg:py-16 mt-5 lg:mt-20">
             <div className="container mx-auto px-6 md:px-12 lg:px-20">
-                <div className="w-[60%] mx-auto text-center  p-5 rounded-lg">
+                <div className="lg:w-[60%] mx-auto text-center p-5 rounded-lg">
                     <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
                         <span className="text-yellow-500">Take a Campus Tour</span>
                     </h2>

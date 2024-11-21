@@ -30,9 +30,9 @@ const Statistics = () => {
     }
 
     return (
-        <section className="bg-gray-50 py-8 mt-10">
+        <section className="bg-gray-50 py-5 lg:py-8 mt-5 lg:mt-10">
             <div className="container mx-auto px-6 md:px-12 lg:px-0">
-                <div className="w-[60%] mx-auto text-center  p-5 rounded-lg">
+                <div className="lg:w-[60%] mx-auto text-center  p-5 rounded-lg">
                     <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
                         <span className="text-yellow-500">Extraordinary Achivement Statistics</span>
                     </h2>
