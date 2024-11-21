@@ -55,9 +55,6 @@ const Navbar = () => {
                         <NavLink to={"/facultynstuff"} className={({ isActive }) =>
                             `px-6 py-2  rounded-lg shadow-md font-medium transition duration-200 ease-in-out mr-3 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 ${isActive ? 'scale-95 bg-[#E5B300]' : 'bg-gray-900 text-white'}`
                         }>Faculty & Stuff</NavLink>
-                        <NavLink to={"/eventnnews"} className={({ isActive }) =>
-                            `px-6 py-2  rounded-lg shadow-md font-medium transition duration-200 ease-in-out mr-3 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 ${isActive ? 'scale-95 bg-[#E5B300]' : 'bg-gray-900 text-white'}`
-                        }>Event & News</NavLink>
                         <NavLink to={"/contactus"} className={({ isActive }) =>
                             `px-6 py-2  rounded-lg shadow-md font-medium transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 ${isActive ? 'scale-95 bg-[#E5B300]' : 'bg-gray-900 text-white'}`
                         }>Contact Us</NavLink>
