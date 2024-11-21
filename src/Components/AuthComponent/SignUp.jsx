@@ -1,6 +1,10 @@
 import React from "react";
+import { FaGoogle } from "react-icons/fa";
+import { AuthContext } from "./AuthProvider";
 
 const SignUp = ({ toggleToLogin }) => {
+
+    const { createGoogleUser } = useContext(AuthContext);
 
     const handleSubmit = e => {
         e.preventDefault()
@@ -67,6 +71,13 @@ const SignUp = ({ toggleToLogin }) => {
                     Login
                 </button>
             </p>
+            <button
+                className="w-full bg-yellow-500 text-black py-2 rounded-md hover:bg-yellow-600 transition flex items-center justify-center gap-2"
+                onClick={createGoogleUser} // The function should now work correctly
+            >
+                <FaGoogle />
+                <span>Sign In with Google</span>
+            </button>
         </div>
     );
 };
