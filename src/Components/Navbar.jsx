@@ -92,6 +92,9 @@ const Navbar = () => {
                                     <li className="text-gray-700 text-sm font-semibold">
                                         <span>Email: {user.email || "N/A"}</span>
                                     </li>
+                                    <li className="text-gray-700 text-sm font-semibold">
+                                        <Link to={"/coursernroll"}>Enroll</Link>
+                                    </li>
                                     <hr className="my-2 border-gray-300" />
                                     <li>
                                         <button className="btn btn-sm w-full" onClick={logOut}>

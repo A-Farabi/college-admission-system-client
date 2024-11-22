@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,6 +16,8 @@ import ContactUs from './Components/ContactUs.jsx';
 import Offers from './Pages/Offers.jsx';
 import CampusTour from './Pages/CampusTour.jsx';
 import AuthProvider from './Components/AuthComponent/AuthProvider.jsx';
+import CourseEnroll from './Components/Enroll/CourseEnroll.jsx';
+import PrivateRoutes from './Components/PrivateRoutes/PrivateRoutes.jsx';
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/campustour",
         element: <CampusTour></CampusTour>,
+      },
+      {
+        path: "/coursernroll",
+        element: <PrivateRoutes><CourseEnroll></CourseEnroll></PrivateRoutes>
       },
     ],
   },
