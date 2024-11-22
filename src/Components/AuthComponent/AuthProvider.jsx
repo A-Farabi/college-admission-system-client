@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
+import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup, updateProfile } from 'firebase/auth';
 import React, { createContext, useState } from 'react';
 import auth from '../../Firebase/firebase.config';
 
@@ -22,12 +22,20 @@ const AuthProvider = ({ children }) => {
     };
 
     const createPasswordBasedUser = (email, password, fullName, photourl) => {
-        return createUserWithEmailAndPassword(auth, email, password, fullName, photourl)
+        return createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
-                const passwordBasedUser = result.user
-                console.log(passwordBasedUser);
-                setUser(passwordBasedUser)
+                const passwordBasedUser = result.user;
+
+                // Update user profile with full name and photo URL
+                return updateProfile(passwordBasedUser, {
+                    displayName: fullName,
+                    photoURL: photourl,
+                }).then(() => {
+                    console.log("User profile updated:", passwordBasedUser);
+                    setUser(passwordBasedUser);
+                });
             })
+
             .catch((error) => {
                 console.log(error.message);
             })
