@@ -16,7 +16,7 @@ const SignUp = ({ toggleToLogin }) => {
         const password = form.password.value
         const photourl = form.photourl.value
 
-        createPasswordBasedUser(email, password)
+        createPasswordBasedUser(email, password, fullName, photourl)
     }
 
     return (

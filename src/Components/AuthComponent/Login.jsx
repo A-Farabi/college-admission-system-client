@@ -5,7 +5,7 @@ import { AuthContext } from "./AuthProvider";
 const Login = ({ toggleToSignup }) => {
 
     // Destructure createGoogleUser directly from context
-    const { createGoogleUser } = useContext(AuthContext);
+    const { createGoogleUser,signInPassBasedUser } = useContext(AuthContext);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -13,6 +13,9 @@ const Login = ({ toggleToSignup }) => {
         const form = e.target;
         const email = form.email.value;
         const password = form.password.value;
+
+        signInPassBasedUser(email, password)
+
     };
 
     return (
