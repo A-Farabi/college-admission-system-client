@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from './AuthComponent/AuthProvider';
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext)
+    console.log(user);
+
     return (
         <div>
             {/* daiseui navbar */}
@@ -62,7 +67,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <div>
+                    {user && user ? <div>
                         <div className="dropdown dropdown-end">
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
@@ -73,13 +78,13 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                <li><a>Settings</a></li>
-                                <li><a>Logout</a></li>
+                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-start">
+                                <button>Setting</button>
+                                <button onClick={logOut}>Log out</button>
                             </ul>
                         </div>
-                    </div>
-                    <Link className='btn bg-[#E5B300] rounded-none' to={"/admission"}>Admission</Link>
+                    </div> : <Link className='btn bg-[#E5B300] rounded-none' to={"/admission"}>Admission</Link>}
+
                 </div>
             </div>
             {/* daiseui navbar */}
