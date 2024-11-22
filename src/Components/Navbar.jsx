@@ -67,24 +67,45 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    {user && user ? <div>
-                        <div className="dropdown dropdown-end">
-                            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                                <div className="w-10 rounded-full">
-                                    <img
-                                        alt="Tailwind CSS Navbar component"
-                                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    {user ? (
+                        <div>
+                            <div className="dropdown dropdown-end">
+                                <div
+                                    tabIndex={0}
+                                    role="button"
+                                    className="btn btn-ghost btn-circle avatar"
+                                >
+                                    <div className="w-10 rounded-full">
+                                        <img
+                                            alt="User Avatar"
+                                            src={user.photoURL || "https://i.ibb.co.com/WGSVB77/user.webp"}
+                                        />
+                                    </div>
                                 </div>
+                                <ul
+                                    tabIndex={0}
+                                    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-start"
+                                >
+                                    <li className="text-gray-700 text-sm font-semibold">
+                                        <span>Name: {user.displayName || "N/A"}</span>
+                                    </li>
+                                    <li className="text-gray-700 text-sm font-semibold">
+                                        <span>Email: {user.email || "N/A"}</span>
+                                    </li>
+                                    <hr className="my-2 border-gray-300" />
+                                    <li>
+                                        <button className="btn btn-sm w-full" onClick={logOut}>
+                                            Log Out
+                                        </button>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul
-                                tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-start">
-                                <button>Setting</button>
-                                <button onClick={logOut}>Log out</button>
-                            </ul>
                         </div>
-                    </div> : <Link className='btn bg-[#E5B300] rounded-none' to={"/admission"}>Admission</Link>}
-
+                    ) : (
+                        <Link className="btn bg-[#E5B300] rounded-none" to={"/admission"}>
+                            Admission
+                        </Link>
+                    )}
                 </div>
             </div>
             {/* daiseui navbar */}
