@@ -86,16 +86,6 @@ const Navbar = () => {
                                     tabIndex={0}
                                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-start"
                                 >
-                                    <li className="text-gray-700 text-sm font-semibold">
-                                        <span>Name: {user.displayName || "N/A"}</span>
-                                    </li>
-                                    <li className="text-gray-700 text-sm font-semibold">
-                                        <span>Email: {user.email || "N/A"}</span>
-                                    </li>
-                                    <li className="text-gray-700 text-sm font-semibold">
-                                        <Link to={"/coursernroll"}>Enroll</Link>
-                                    </li>
-                                    <hr className="my-2 border-gray-300" />
                                     <li>
                                         <Link to={"/profile"}  className="btn btn-sm w-full mb-2">
                                             View Profile
