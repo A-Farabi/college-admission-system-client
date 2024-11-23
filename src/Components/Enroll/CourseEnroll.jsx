@@ -14,9 +14,15 @@ const EnrollForm = () => {
 
         const formData = { fullName, email, phone, course, message };
 
-        console.log('Form Submitted:', formData);
-        // Add your API call or form handling logic here
-        alert('Your application has been submitted successfully!');
+        fetch('http://localhost:5000/user', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(res => res.json())
+            .then(data => console.log(data))
 
         // Clear the form after submission
         form.reset();
