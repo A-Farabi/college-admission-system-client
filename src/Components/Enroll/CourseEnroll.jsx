@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 
 const EnrollForm = () => {
     const handleSubmit = (e) => {
@@ -22,7 +23,24 @@ const EnrollForm = () => {
             body: JSON.stringify(formData)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => {console.log(data)
+                if (data.insertedId) {
+                    Swal.fire({
+                        position: "center",
+                        icon: "success",
+                        title: "You've been registered",
+                        showConfirmButton: false,
+                        timer: 1500
+                      });
+                }
+                else{
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Something went wrong!"
+                      });
+                }
+            })
 
         // Clear the form after submission
         form.reset();
