@@ -83,4 +83,8 @@ A comprehensive web application designed to simplify the college admission proce
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can contribute:  
+Contributions are welcome!
+
+## Licensed 
+
+AL Farabi @ 2024
