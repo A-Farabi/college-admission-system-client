@@ -21,7 +21,7 @@ const AboutUs = () => {
         //             {/* Text Section */}
         //             <div className="lg:w-1/2 space-y-6">
         //                 <h2 className="text-4xl font-bold text-gray-800">
-        //                     About <span className="text-blue-500">Headway Engineering Institute</span>
+        //                     About <span className="text-yellow-500">Headway Engineering Institute</span>
         //                 </h2>
         //                 <p className="text-gray-600 text-lg">
         //                     At Headway Engineering Institute, we are committed to providing exceptional education and
@@ -32,7 +32,7 @@ const AboutUs = () => {
         //                     Our mission is to create a learning environment that nurtures creativity, critical thinking,
         //                     and technical expertise, preparing students to become leaders in their respective fields.
         //                 </p>
-        //                 <button className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition duration-300">
+        //                 <button className="px-6 py-3 bg-yellow-500 text-white rounded-lg shadow hover:bg-yellow-600 transition duration-300">
         //                     Learn More
         //                 </button>
         //             </div>

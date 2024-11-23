@@ -23,7 +23,7 @@ const Profile = () => {
                     <img
                         src={user.photoURL}
                         alt="Profile"
-                        className="w-24 h-24 rounded-full border-2 border-blue-500"
+                        className="w-24 h-24 rounded-full border-2 border-yellow-500"
                     />
                 ) : (
                     <div className="w-24 h-24 rounded-full bg-gray-300 flex items-center justify-center text-xl font-bold text-gray-600">
@@ -67,12 +67,12 @@ const Profile = () => {
 
                 {/* Logout Button */}
                 <Link to={"/coursernroll"}><button
-                    className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition mt-4"
+                    className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition mt-4"
                 >
                     Enroll Course
                 </button></Link>
                 <button
-                    className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition mt-4"
+                    className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition mt-4"
                     onClick={logOut}
                 >
                     Log Out

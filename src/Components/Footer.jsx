@@ -75,7 +75,7 @@ const Footer = () => {
                             type="email"
                             id='email'
                             placeholder="farabisyl2017@gmail.com"
-                            className="w-full max-w-md px-4 py-2 rounded-md bg-gray-700 border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            className="w-full max-w-md px-4 py-2 rounded-md bg-gray-700 border border-gray-600 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
                         />
                         <div className="flex items-center space-x-2 text-gray-400">
                             <input type="checkbox" id="terms" className="w-4 h-4" />
@@ -124,7 +124,7 @@ const Footer = () => {
                                 href="https://linkedin.com/in/mazidalfarabi"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="underline text-blue-500 hover:text-blue-400"
+                                className="underline text-yellow-500 hover:text-yellow-400"
                             >
                                 linkedin.com/in/mazidalfarabi
                             </a>

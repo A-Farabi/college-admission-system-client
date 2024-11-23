@@ -22,13 +22,13 @@ const Review = () => {
             {reviews.map((review, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-lg p-6 space-y-4 border-t-4 border-blue-500 hover:shadow-xl transition duration-300"
+                className="bg-white rounded-lg shadow-lg p-6 space-y-4 border-t-4 border-yellow-500 hover:shadow-xl transition duration-300"
               >
                 <div className="flex items-center space-x-4">
                   <img
                     src={review.avatar}
                     alt={review.name}
-                    className="w-14 h-14 rounded-full border-2 border-blue-500"
+                    className="w-14 h-14 rounded-full border-2 border-yellow-500"
                   />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800">

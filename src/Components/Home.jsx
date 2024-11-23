@@ -31,7 +31,7 @@ const Home = () => {
                                     key={index}
                                     className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300"
                                 >
-                                    <div className="text-4xl mb-4 text-blue-500">{cardData.icon}</div>
+                                    <div className="text-4xl mb-4 text-yellow-500">{cardData.icon}</div>
                                     <h3 className="text-xl font-bold text-gray-800 mb-2">{cardData.title}</h3>
                                     <p className="text-gray-600">{cardData.description}</p>
                                 </div>

@@ -6,7 +6,7 @@ import bannerImage3 from '../../public/assets/student_banner3.png'
 const Banner = () => {
     return (
         // <div className='mt-10'>
-        //     <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
+        //     <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-yellow-50 to-yellow-50 p-8 lg:p-16">
         //         {/* Left Section */}
         //         <div className="flex-1 space-y-4 text-center lg:text-left">
         //             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
@@ -42,7 +42,7 @@ const Banner = () => {
             {/* slder 1 */}
             <div id="slide1" className="carousel-item relative w-full">
                 <div className='mt-10'>
-                    <div className=" flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
+                    <div className=" flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-yellow-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
                         <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
@@ -82,7 +82,7 @@ const Banner = () => {
             {/* slider 2 */}
             <div id="slide2" className="carousel-item relative w-full">
                 <div className='mt-10'>
-                    <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
+                    <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-yellow-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
                         <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">
@@ -123,7 +123,7 @@ const Banner = () => {
             {/* slider 3 */}
             <div id="slide3" className="carousel-item relative w-full">
                 <div className='mt-10'>
-                    <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-blue-50 to-yellow-50 p-8 lg:p-16">
+                    <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-yellow-50 to-yellow-50 p-8 lg:p-16">
                         {/* Left Section */}
                         <div className="lg:mx-12 flex-1 space-y-4 text-center lg:text-left">
                             <h1 className="text-4xl lg:text-5xl font-bold text-gray-800">

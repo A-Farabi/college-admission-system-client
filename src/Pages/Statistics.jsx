@@ -48,7 +48,7 @@ const Statistics = () => {
                             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
                                 {item.title}
                             </h3>
-                            <p className="text-4xl font-bold text-blue-500 mb-4">
+                            <p className="text-4xl font-bold text-yellow-500 mb-4">
                                 {item.value}
                             </p>
                             <p className="text-gray-600">{item.description}</p>

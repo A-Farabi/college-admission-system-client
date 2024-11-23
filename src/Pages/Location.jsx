@@ -25,7 +25,7 @@ const Location = () => {
             </p>
             <p className="text-lg text-gray-600">
               Contact Us:{" "}
-              <a href="tel:+880123456789" className="text-blue-500 underline">
+              <a href="tel:+880123456789" className="text-yellow-500 underline">
                 +880123456789
               </a>
             </p>
