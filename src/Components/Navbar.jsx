@@ -97,6 +97,11 @@ const Navbar = () => {
                                     </li>
                                     <hr className="my-2 border-gray-300" />
                                     <li>
+                                        <Link to={"/profile"}  className="btn btn-sm w-full mb-2">
+                                            View Profile
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <button className="btn btn-sm w-full" onClick={logOut}>
                                             Log Out
                                         </button>

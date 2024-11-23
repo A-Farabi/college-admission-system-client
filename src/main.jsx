@@ -18,6 +18,7 @@ import CampusTour from './Pages/CampusTour.jsx';
 import AuthProvider from './Components/AuthComponent/AuthProvider.jsx';
 import CourseEnroll from './Components/Enroll/CourseEnroll.jsx';
 import PrivateRoutes from './Components/PrivateRoutes/PrivateRoutes.jsx';
+import Profile from './Components/AuthComponent/Profile.jsx';
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path: "/coursernroll",
         element: <PrivateRoutes><CourseEnroll></CourseEnroll></PrivateRoutes>
+      },
+      {
+        path: "/profile",
+        element: <PrivateRoutes><Profile></Profile></PrivateRoutes>
       },
     ],
   },
