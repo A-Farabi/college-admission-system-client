@@ -27,41 +27,41 @@ const EnrollForm = () => {
             <h2 className="text-2xl font-bold text-center mb-4">Enroll for a Course</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                    <label className="block text-sm font-medium text-gray-700">Full Name</label>
+                    <label className="block text-sm font-medium text-gray-700">Full Name *</label>
                     <input
                         type="text"
                         name="fullName"
                         placeholder="Enter your full name"
                         required
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                     />
                 </div>
                 <div>
-                    <label className="block text-sm font-medium text-gray-700">Email</label>
+                    <label className="block text-sm font-medium text-gray-700">Email *</label>
                     <input
                         type="email"
                         name="email"
                         placeholder="Enter your email"
                         required
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                     />
                 </div>
                 <div>
-                    <label className="block text-sm font-medium text-gray-700">Phone Number</label>
+                    <label className="block text-sm font-medium text-gray-700">Phone Number *</label>
                     <input
                         type="tel"
                         name="phone"
                         placeholder="Enter your phone number"
                         required
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                     />
                 </div>
                 <div>
-                    <label className="block text-sm font-medium text-gray-700">Course</label>
+                    <label className="block text-sm font-medium text-gray-700">Course *</label>
                     <select
                         name="course"
                         required
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                     >
                         <option value="" disabled>
                             Select a course
@@ -80,12 +80,12 @@ const EnrollForm = () => {
                         name="message"
                         placeholder="Add a message (optional)"
                         rows="4"
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                     ></textarea>
                 </div>
                 <button
                     type="submit"
-                    className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition"
+                    className="w-full bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition"
                 >
                     Enroll Now
                 </button>
