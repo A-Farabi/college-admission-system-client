@@ -47,7 +47,7 @@ const Navbar = () => {
                             }>Contact Us</NavLink>
                         </ul>
                     </div>
-                    <Link to={"/"} className="text-2xl font-bold text-[#36384E] hidden lg:block">Headway Engineering Ins.</Link >
+                    <Link to={"/"} className="text-2xl font-bold text-[#36384E] hidden lg:block">Skill Craft Institute</Link >
                     <Link to={"/"} className="text-2xl font-bold text-[#36384E] block lg:hidden">HEI</Link >
                 </div>
                 <div className="navbar-center hidden lg:flex">
